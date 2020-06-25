@@ -1,24 +1,18 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Isa from './components/Isa'
+import Projects from './components/Projects'
+import NavigationBar from './components/NavigationBar'
+// import Background from "./seattle2.jpg";
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <NavigationBar></NavigationBar>
+      <Isa></Isa>
+      <Projects></Projects>
     </div>
   );
 }

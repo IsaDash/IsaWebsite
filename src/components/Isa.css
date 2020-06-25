@@ -1,0 +1,67 @@
+.isa {
+    background-color: rgb(18, 0, 53);
+    /* background-image: url(/seattle1.jpeg);  */
+    background-repeat: no-repeat;
+    background-position: left;
+
+    min-height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+  }
+
+  .container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    
+}
+
+  .header-text {
+    padding-left: 15%;
+    padding-right: 15%;
+    text-align: left;
+    font-size: 2.5em;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bolder;
+    color: #e2dcfa;
+  }
+
+  .p-text {
+    padding-left: 15%;
+    padding-right: 15%;
+    text-align: left;
+    font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
+    font-size: 1em;
+    font-weight: lighter;
+    color:#b7a8fc;
+  }
+ 
+  .Image {
+
+    margin-left: 15%;
+
+    height: 20vmin;
+    pointer-events: none;
+    width: 200px;
+    height: 200px;
+    
+    overflow:hidden;
+    border-radius: 50%;
+    border-color: rgb(255, 248, 170);
+    border-style: solid;
+    border-width: 1.5px;
+  }
+  
+  .profile-pic {
+    margin-top: 10px;
+    display: inline; 
+    text-align: center;
+    margin: 0 auto;
+    height: 100%;
+    width: auto;
+  }
