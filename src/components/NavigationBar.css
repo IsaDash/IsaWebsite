@@ -9,17 +9,17 @@
     justify-content: center;
 }
 
-.container {
+.container_bar{
     width: 100%;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin-right: auto;
-    margin-left: auto;
+    padding-left: 15%s;
+    padding-right: 15%;
+    margin-right: 15%;
+    margin-left: 15%;
 }
 
 .text {
-    padding-left: 15%;
-    padding-right: 5%;
+    /* padding-left: 15%; */
+    /* padding-right: 5%; */
    
     text-align: left;
     font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
@@ -33,13 +33,13 @@
       color: #b7a8fc;
       font-size: 1em;
       text-decoration: none;
-      border-bottom:1px solid rgb(255, 248, 170);
-      border-right:1px solid rgb(255, 248, 170);
+      /* border-bottom:1px solid rgb(255, 248, 170); */
+      /* border-right:1px solid rgb(255, 248, 170); */
       padding-left: 0px;
       padding-right: 5px;
       padding-top: 0px;
       padding-bottom: 5px;
-      border-bottom-right-radius: 10%;
+      
      
      
   }
@@ -49,8 +49,8 @@
     color:#b7a8fc;
     font-size: 1em;
     text-decoration: none;
-    border-bottom:1px solid rgb(255, 248, 170);
-      border-right:1px solid rgb(255, 248, 170);
+    /* border-bottom:1px solid rgb(255, 248, 170); */
+      /* border-right:1px solid rgb(255, 248, 170); */
       /* border-left: 1px solid rgb(255, 248, 170); */
       /* border-top: 1px solid rgb(255, 248, 170); */
       padding-left: 0px;
@@ -65,8 +65,8 @@
     color:#b7a8fc;
     font-size: 1em;
     text-decoration: none;
-    border-bottom:1px solid rgb(255, 248, 170);
-      border-right:1px solid rgb(255, 248, 170);
+    /* border-bottom:1px solid rgb(255, 248, 170); */
+      /* border-right:1px solid rgb(255, 248, 170); */
       padding-left: 0px;
       padding-right: 5px;
       padding-top: 0px;

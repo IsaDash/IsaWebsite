@@ -12,19 +12,21 @@
     
   }
 
-  .container {
+  /* .container_ {
     width: 100%;
     padding-right: 15px;
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
-}
+} */
 
 .header {
     padding-left: 15%;
     padding-right: 15%;
     padding-bottom: 40%;
     text-align: left;
-    font: 1.5em Courier New;
-    color: white;
+    font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
+    font-size: 1.5em;
+    font-weight: 400;
+    color: #b7a8fc;
   }

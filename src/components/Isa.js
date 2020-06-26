@@ -7,7 +7,8 @@ function Isa() {
     return (
         <header className="isa">
             <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet"></link>
-            <div className="container">
+            
+            <div className="container-isa">
                 <Image></Image>
                 <h1 className="header-text">
                     <Scramble
@@ -31,14 +32,14 @@ function Isa() {
                     />
 
                 </h1>
-                <h2 className="p-text">
+                <p className="p-text">
                     <p>
                     I'm a Math and CS major at the University of Illinois at Urbana-Champaign class of 2022;
                 </p>
                 I'm a software engineering intern at JP Morgan Chase as of July 2020;
 
 
-            </h2>
+            </p>
             </div>
         </header>
     );

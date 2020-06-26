@@ -7,7 +7,7 @@ function Projects() {
         <header className="projects">
             <div className="container">
                 <h1 className="header">
-                    Featured projects:
+                    featured projects:
                 </h1>
             </div>
         </header>

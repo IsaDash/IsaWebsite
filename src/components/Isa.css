@@ -5,25 +5,27 @@
     background-position: left;
 
     min-height: 70vh;
-    display: flex;
+    display: flex; 
     flex-direction: column;
-    align-items: center;
+    /* align-items: center; */
     justify-content: center;
     
   }
 
-  .container {
+  .container-isa {
     width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
+    padding-left: 15%s;
+    padding-right: 15%;
+    margin-right: 15%;
+    margin-left: 15%; 
     
 }
 
+.text-container {
+  border-left:2px solid palevioletred;
+}
+
   .header-text {
-    padding-left: 15%;
-    padding-right: 15%;
     text-align: left;
     font-size: 2.5em;
     font-family: 'Roboto Mono', monospace;
@@ -32,19 +34,16 @@
   }
 
   .p-text {
-    padding-left: 15%;
-    padding-right: 15%;
     text-align: left;
     font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
     font-size: 1em;
     font-weight: lighter;
     color:#b7a8fc;
+
+    /* border-left: 2px solid rgb(252, 124, 162); */
   }
  
   .Image {
-
-    margin-left: 15%;
-
     height: 20vmin;
     pointer-events: none;
     width: 200px;
@@ -52,9 +51,9 @@
     
     overflow:hidden;
     border-radius: 50%;
-    border-color: rgb(255, 248, 170);
+    border-color: rgb(252, 124, 162);
     border-style: solid;
-    border-width: 1.5px;
+    border-width: 2.5px;
   }
   
   .profile-pic {
