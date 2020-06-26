@@ -10,6 +10,9 @@ function Isa() {
             
             <div className="container-isa">
                 <Image></Image>
+                <div className="text-container">
+
+               
                 <h1 className="header-text">
                     <Scramble
                         autoStart
@@ -22,9 +25,9 @@ function Isa() {
                                 speed: 'slow'
                             },
                             {
-                                roll: 50,
+                                roll: 20,
                                 action: '-',
-                                type: 'random',
+                                type: 'forward',
                                 speed: 'slowest'
 
                             },
@@ -40,6 +43,7 @@ function Isa() {
 
 
             </p>
+            </div>
             </div>
         </header>
     );

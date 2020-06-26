@@ -5,10 +5,11 @@ import Image from './Image'
 function Projects() {
     return (
         <header className="projects">
-            <div className="container">
-                <h1 className="header">
-                    featured projects:
+            <div >
+                <h1 className="project-container header">
+                    Featured Projects
                 </h1>
+
             </div>
         </header>
     );

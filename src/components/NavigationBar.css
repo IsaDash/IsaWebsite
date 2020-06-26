@@ -10,11 +10,8 @@
 }
 
 .container_bar{
-    width: 100%;
-    padding-left: 15%s;
-    padding-right: 15%;
     margin-right: 15%;
-    margin-left: 15%;
+    margin-left: 15%; 
 }
 
 .text {
@@ -29,14 +26,16 @@
   }
 
   .github-link {
-      margin-left: 60%;
+      text-align: right;
+      padding-left: 65%;
+      padding-right: 2.5%;
       color: #b7a8fc;
-      font-size: 1em;
+      /* font-size: 1em; */
       text-decoration: none;
       /* border-bottom:1px solid rgb(255, 248, 170); */
       /* border-right:1px solid rgb(255, 248, 170); */
-      padding-left: 0px;
-      padding-right: 5px;
+      /* padding-left: 0px;
+      padding-right: 5px; */
       padding-top: 0px;
       padding-bottom: 5px;
       
@@ -45,31 +44,43 @@
   }
 
   .linkedin-link {
-    margin-left: 2.5%;
+    text-align: right;
+    padding-right: 2.5%;
     color:#b7a8fc;
-    font-size: 1em;
+    /* font-size: 1em; */
     text-decoration: none;
     /* border-bottom:1px solid rgb(255, 248, 170); */
       /* border-right:1px solid rgb(255, 248, 170); */
       /* border-left: 1px solid rgb(255, 248, 170); */
       /* border-top: 1px solid rgb(255, 248, 170); */
       padding-left: 0px;
-      padding-right: 5px;
+      /* padding-right: 5px; */
       padding-top: 0px;
       padding-bottom: 5px;
      
   }
 
   .email-link {
-    margin-left: 2.5%;
+    text-align: right;
+    padding-right: 2.5%;
     color:#b7a8fc;
-    font-size: 1em;
+    /* font-size: 1em; */
     text-decoration: none;
     /* border-bottom:1px solid rgb(255, 248, 170); */
       /* border-right:1px solid rgb(255, 248, 170); */
-      padding-left: 0px;
-      padding-right: 5px;
-      padding-top: 0px;
+    
+      padding-bottom: 5px;
+     
+  }
+
+  .resume-link {
+    text-align: right;
+    color:rgb(252, 124, 162);
+    /* font-size: 1em; */
+    text-decoration: none;
+    /* border-bottom:1px solid rgb(255, 248, 170); */
+      /* border-right:1px solid rgb(255, 248, 170); */
+    
       padding-bottom: 5px;
      
   }

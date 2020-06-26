@@ -13,16 +13,19 @@
   }
 
   .container-isa {
-    width: 100%;
-    padding-left: 15%s;
-    padding-right: 15%;
+    /* max-width: 100%; */
+    /* padding-left: 15%; */
+    /* padding-right: 15%; */
     margin-right: 15%;
     margin-left: 15%; 
     
 }
 
 .text-container {
-  border-left:2px solid palevioletred;
+  border-left: 2.5px solid rgb(252, 124, 162);
+  /* padding-left: 5%; */
+  padding-left: 5%;
+  
 }
 
   .header-text {

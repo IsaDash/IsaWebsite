@@ -18,6 +18,9 @@ function NavigationBar() {
                     <a className="email-link" href="mailto:isadash21@gmail.com">
                         email
                     </a>
+                    <a className="resume-link">
+                        resume
+                    </a>
                 </h1>
             </div>
         </header>
