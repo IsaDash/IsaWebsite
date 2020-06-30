@@ -27,8 +27,8 @@
 
   .github-link {
       text-align: right;
-      padding-left: 65%;
-      padding-right: 2.5%;
+      margin-left: 65%;
+      margin-right: 2.5%;
       color: #b7a8fc;
       /* font-size: 1em; */
       text-decoration: none;
@@ -45,7 +45,7 @@
 
   .linkedin-link {
     text-align: right;
-    padding-right: 2.5%;
+    margin-right: 2.5%;
     color:#b7a8fc;
     /* font-size: 1em; */
     text-decoration: none;
@@ -62,7 +62,7 @@
 
   .email-link {
     text-align: right;
-    padding-right: 2.5%;
+    margin-right: 2.5%;
     color:#b7a8fc;
     /* font-size: 1em; */
     text-decoration: none;
@@ -75,7 +75,7 @@
 
   .resume-link {
     text-align: right;
-    color:rgb(252, 124, 162);
+    color:rgb(255, 66, 123);
     /* font-size: 1em; */
     text-decoration: none;
     /* border-bottom:1px solid rgb(255, 248, 170); */
