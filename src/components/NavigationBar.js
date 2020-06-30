@@ -8,7 +8,9 @@ function NavigationBar() {
             <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet"></link>
             <div className="container_bar">
                 <h1 className="text">
+                    <a className="text" href="#isa">
                     isa dash
+                    </a>
                     <a className="github-link" href="https://github.com/IsaDash" target="_blank">
                         github
                     </a>

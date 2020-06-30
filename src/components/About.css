@@ -1,4 +1,4 @@
-.projects {
+.about {
     background-color: rgb(18, 0, 53);
     /* background-image: url(/seattle1.jpeg);  */
     background-repeat: no-repeat;
@@ -23,19 +23,23 @@
     
 }
 
-.project-container {
+.about-container {
     border-right: 2.5px solid rgb(255, 66, 123);
     border-top: 2.5px solid rgb(255, 66, 123);
+
     margin-right: 15%;
     margin-left: 40%;
+    margin-bottom: 0%;
+    margin-top: 10%;
+
     padding-right: 2.5%;
+    padding-left: 2.5%;
     padding-top: 1%;
-    margin-bottom: 50%;
+    padding-bottom: 5%;
     
   }
 
   .about-text {
-    margin-left: 2.5%;
     text-align: left;
     font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
     font-size: medium;
@@ -48,10 +52,6 @@
   }
 
 .header {
-    /* padding-left: 15%;
-    padding-right: 15%; */
-    padding-bottom: 10%;
-    margin-bottom: 15%;
     text-align: right;
     font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
     font-size: 1.5em;

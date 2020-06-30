@@ -1,17 +1,21 @@
 import React from 'react';
-import './Projects.css';
+import './About.css';
 import Image from './Image'
+import ScrollableAnchor from 'react-scrollable-anchor'
+import { configureAnchors } from 'react-scrollable-anchor'
 
 import AOS from 'aos';
 import 'aos/dist/aos.css'; 
 AOS.init();
 
+configureAnchors({offset: -60, scrollDuration: 600})
 
-function Projects() {
+function About() {
     return (
-        <header className="projects">
-            <div data-aos="fade-left" >
-                <h1 className="project-container header">
+        <ScrollableAnchor id="about">
+        <header className="about">
+            <div data-aos="fade-right" data-aos-duration="1000">
+                <h1 className="about-container header">
                     1. about
                     <p className="about-text">
                         Hello! My name is Isa Dash and I'm from San Jose, CA.
@@ -33,7 +37,8 @@ function Projects() {
 
             </div>
         </header>
+        </ScrollableAnchor>
     );
 }
 
-export default Projects;
+export default About;

@@ -2,9 +2,11 @@ import React from 'react';
 import './Isa.css';
 import Scramble from 'react-scramble';
 import Image from './Image'
+import ScrollableAnchor from 'react-scrollable-anchor'
 
 function Isa() {
     return (
+        <section id="isa">
         <header className="isa">
             <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet"></link>
             
@@ -22,13 +24,13 @@ function Isa() {
                                 roll: 30,
                                 action: '+',
                                 type: 'forward',
-                                speed: 'medium'
+                                speed: 'fast'
                             },
                             {
                                 roll: 30,
                                 action: '-',
                                 type: 'forward',
-                                speed: 'medium'
+                                speed: 'fast'
 
                             },
                         ]}
@@ -40,7 +42,7 @@ function Isa() {
                     
                 </h1>
                 <p className="navigation-text">
-                    <a className="navigation-text" href="https://github.com/IsaDash" target="_blank">
+                    <a className="navigation-text" href="#about">
                         1. about
                     </a>
                     <a className="navigation-text" href="https://github.com/IsaDash" target="_blank">
@@ -67,6 +69,7 @@ function Isa() {
             </div>
             </div>
         </header>
+        </section>
     );
 }
 
