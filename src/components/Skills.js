@@ -14,7 +14,7 @@ function Skills() {
     return (
         <ScrollableAnchor id="skills">
             <header className="skills">
-                <div data-aos="fade-up" data-aos-duration="1000">
+                <div data-aos="fade-up" data-aos-duration="1000" data-aos-offset="200">
                     <h1 className="skills-container header">
                         2. skills
                     <div> 

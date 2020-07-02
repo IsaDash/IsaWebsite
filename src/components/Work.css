@@ -1,18 +1,20 @@
-.projects {
+.work {
     background-color: rgb(18, 0, 53);
     /* background-image: url(/seattle1.jpeg);  */
     background-repeat: no-repeat;
     background-position: left;
 
-    min-height: 80vh;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     /* align-items: center; */
-    /* justify-content: center; */
+    /* justify-content: stretch;  */
     
   }
 
-.projects-container {
+.work-container {
+    height: auto;
+
     border-right: 2.5px solid rgb(255, 66, 123);
     border-top: 2.5px solid rgb(255, 66, 123);
 
@@ -24,11 +26,19 @@
     padding-right: 2.5%;
     padding-left: 2.5%;
     padding-top: 1%;
-    padding-bottom: 5%;
+    padding-bottom: 2.5%;
     
   }
+  
+  .work-text {
+    clear: both;
+    display: grid;
+    height: auto;
+    
+    border: 1px solid rgb(255, 66, 123);
+    margin: 5%;
+    padding: 1%;
 
-  .projects-text {
     text-align: left;
     font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
     font-size: medium;
@@ -38,9 +48,20 @@
 
   .highlight {
     color:rgb(255, 66, 123);
+    text-decoration: none;
   }
 
-.projects-header {
+  .left-align {
+    float: left;
+    text-align: left;
+  }
+
+  .right-align {
+    float: right;
+    text-align: right;
+  }
+
+.work-header {
     text-align: right;
     font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
     font-size: 1.5em;

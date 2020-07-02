@@ -47,11 +47,11 @@ function Isa() {
                     <a className="navigation-text" href="#skills">
                         2. skills
                     </a>
-                    <a className="navigation-text" href="#projects">
-                        3. featured work
+                    <a className="navigation-text" href="#work">
+                        3. work experience
                     </a>
                     <a className="navigation-text" href="https://github.com/IsaDash" target="_blank">
-                        4. other
+                        4. projects
                     </a>
                 </div>
             

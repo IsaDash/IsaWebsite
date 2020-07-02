@@ -15,7 +15,7 @@ function About() {
         <ScrollableAnchor id="about">
         <header className="about">
             <div data-aos="fade-up" data-aos-duration="1000">
-                <h1 className="about-container header">
+                <h1 className="about-container about-header">
                     1. about
                     <p className="about-text">
                         Hello! My name is Isa Dash and I'm from San Jose, CA.

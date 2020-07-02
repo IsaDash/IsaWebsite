@@ -5,7 +5,7 @@ import Isa from './components/Isa'
 import About from './components/About'
 import NavigationBar from './components/NavigationBar'
 import Skills from './components/Skills';
-import Projects from './components/Projects';
+import Work from './components/Work';
 // import Background from "./seattle2.jpg";
 
 
@@ -16,7 +16,7 @@ function App() {
       <Isa></Isa>
       <About></About>
       <Skills></Skills>
-      <Projects></Projects>
+      <Work></Work>
     </div>
   );
 }
