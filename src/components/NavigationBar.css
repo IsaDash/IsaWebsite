@@ -5,18 +5,18 @@
 
     display: flex;
     flex-direction: column;
-    /* align-items: center; */
+    align-items: stretch;
     justify-content: center;
+    overflow-x: hidden;
 }
 
 .container_bar{
+    max-width: 100%;
     margin-right: 15%;
     margin-left: 15%; 
 }
 
 .text {
-    /* padding-left: 15%; */
-    /* padding-right: 5%; */
     text-decoration: none;
     text-align: left;
     font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
@@ -25,19 +25,18 @@
     color: #b7a8fc;
   }
 
+  .align-right {
+    align-items: right;
+    float: right;
+    text-align: right;
+  }
+
   .github-link {
+      
       text-align: right;
-      margin-left: 65%;
-      margin-right: 2.5%;
+      margin-right: 5%;
       color: #b7a8fc;
-      /* font-size: 1em; */
       text-decoration: none;
-      /* border-bottom:1px solid rgb(255, 248, 170); */
-      /* border-right:1px solid rgb(255, 248, 170); */
-      /* padding-left: 0px;
-      padding-right: 5px; */
-      padding-top: 0px;
-      padding-bottom: 5px;
       
      
      
@@ -45,7 +44,7 @@
 
   .linkedin-link {
     text-align: right;
-    margin-right: 2.5%;
+    margin-right: 5%;
     color:#b7a8fc;
     /* font-size: 1em; */
     text-decoration: none;
@@ -55,21 +54,21 @@
       /* border-top: 1px solid rgb(255, 248, 170); */
       padding-left: 0px;
       /* padding-right: 5px; */
-      padding-top: 0px;
-      padding-bottom: 5px;
+      /* padding-top: 0px;
+      padding-bottom: 5px; */
      
   }
 
   .email-link {
     text-align: right;
-    margin-right: 2.5%;
+    margin-right: 5%;
     color:#b7a8fc;
     /* font-size: 1em; */
     text-decoration: none;
     /* border-bottom:1px solid rgb(255, 248, 170); */
       /* border-right:1px solid rgb(255, 248, 170); */
     
-      padding-bottom: 5px;
+      /* padding-bottom: 5px; */
      
   }
 
@@ -81,6 +80,6 @@
     /* border-bottom:1px solid rgb(255, 248, 170); */
       /* border-right:1px solid rgb(255, 248, 170); */
     
-      padding-bottom: 5px;
+      /* padding-bottom: 5px; */
      
   }

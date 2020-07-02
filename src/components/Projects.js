@@ -1,5 +1,5 @@
 import React from 'react';
-import './About.css';
+import './Projects.css';
 import Image from './Image'
 import ScrollableAnchor from 'react-scrollable-anchor'
 import { configureAnchors } from 'react-scrollable-anchor'
@@ -10,10 +10,10 @@ AOS.init();
 
 configureAnchors({offset: -60, scrollDuration: 800})
 
-function About() {
+function Projects() {
     return (
-        <ScrollableAnchor id="about">
-        <header className="about">
+        <ScrollableAnchor id="projects">
+        <header className="projects">
             <div data-aos="fade-up" data-aos-duration="1000">
                 <h1 className="about-container header">
                     1. about
@@ -41,4 +41,4 @@ function About() {
     );
 }
 
-export default About;
+export default Projects;

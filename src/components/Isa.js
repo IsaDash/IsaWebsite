@@ -39,37 +39,30 @@ function Isa() {
                 </h1>
                 <h1 className="p-text">
                     Welcome to my website!
-                    
                 </h1>
-                <p className="navigation-text">
+                <div className="navigation-text">
                     <a className="navigation-text" href="#about">
                         1. about
                     </a>
-                    <a className="navigation-text" href="https://github.com/IsaDash" target="_blank">
+                    <a className="navigation-text" href="#skills">
                         2. skills
                     </a>
-                    <a className="navigation-text" href="https://github.com/IsaDash" target="_blank">
+                    <a className="navigation-text" href="#projects">
                         3. featured work
                     </a>
                     <a className="navigation-text" href="https://github.com/IsaDash" target="_blank">
                         4. other
                     </a>
-                </p>
-
-                {/* <p className="p-text">
-                    <p>
-                    I'm a Math and CS major at the University of Illinois at Urbana-Champaign class of 2022;
-                </p>
-                I'm a software engineering intern at JP Morgan Chase as of July 2020;
-
-
-            </p> */}
-
+                </div>
             
             </div>
             </div>
+
+            
         </header>
         </section>
+
+        
     );
 }
 

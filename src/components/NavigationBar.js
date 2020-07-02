@@ -9,19 +9,23 @@ function NavigationBar() {
             <div className="container_bar">
                 <h1 className="text">
                     <a className="text" href="#isa">
-                    isa dash
+                        isa dash
                     </a>
-                    <a className="github-link" href="https://github.com/IsaDash" target="_blank">
-                        github
+                    <a className="align-right">
+
+
+                        <a className="github-link" href="https://github.com/IsaDash" target="_blank">
+                            github
                     </a>
-                    <a className="linkedin-link" href="https://www.linkedin.com/in/isadash/" target="_blank">
-                        linkedin
+                        <a className="linkedin-link" href="https://www.linkedin.com/in/isadash/" target="_blank">
+                            linkedin
                     </a>
-                    <a className="email-link" href="mailto:isadash21@gmail.com">
-                        email
+                        <a className="email-link" href="mailto:isadash21@gmail.com">
+                            email
                     </a>
-                    <a className="resume-link">
-                        resume
+                        <a className="resume-link">
+                            resume
+                    </a>
                     </a>
                 </h1>
             </div>

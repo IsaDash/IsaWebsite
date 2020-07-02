@@ -1,45 +1,57 @@
-.about {
+.skills {
     background-color: rgb(18, 0, 53);
     /* background-image: url(/seattle1.jpeg);  */
     background-repeat: no-repeat;
     background-position: left;
 
-    min-height: 70vh;
+    min-height: 80vh;
     display: flex;
     flex-direction: column;
     /* align-items: center; */
     /* justify-content: center; */
-    padding-top: 0%;
+    
     
   }
 
-  .container {
-    width: 100%;
-    /* padding-left: 15%;
-    padding-right: 15%; */
-    margin-right: 15%;
-    margin-left: 15%;
-    margin-bottom: 50%;
+.skills-container {
+    clear: right;
+    display: grid;
+    height: auto;
     
-}
+    border-left: 2.5px solid rgb(255, 66, 123);
+    border-bottom: 2.5px solid rgb(255, 66, 123);
 
-.about-container {
-    border-right: 2.5px solid rgb(255, 66, 123);
-    border-top: 2.5px solid rgb(255, 66, 123);
-
-    margin-right: 15%;
-    margin-left: 35%;
+    margin-right: 35%;
+    margin-left: 15%;
     margin-bottom: 0%;
-    margin-top: 5%;
+    margin-top: 0%;
 
     padding-right: 2.5%;
     padding-left: 2.5%;
     padding-top: 1%;
-    padding-bottom: 5%;
+    padding-bottom: 2.5%;
     
   }
 
-  .about-text {
+  .technologies{
+    margin-top: 2.5%;
+    margin-right: 10%;
+    
+    float: left;
+
+    text-align: left;
+    font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
+    font-size: medium;
+    font-weight: lighter;
+    color:#b7a8fc;
+
+    list-style-type: circle;
+  }
+
+  .courses{
+    margin-top: 2.5%;
+    float: left;
+    
     text-align: left;
     font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
     font-size: medium;
@@ -47,12 +59,21 @@
     color:#b7a8fc;
   }
 
+  ul {
+    list-style: none;
+  }
+  
+  li::before {
+    content: "‣ ";
+    color: rgb(255, 66, 123);
+  }
+
   .highlight {
     color:rgb(255, 66, 123);
   }
 
 .header {
-    text-align: right;
+    text-align: left;
     font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
     font-size: 1.5em;
     font-weight: 400;
